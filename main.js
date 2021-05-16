@@ -30,7 +30,7 @@ The inner (return function) has closure over the `name` variable. I can tell thi
 
 /*
 whats the same: The name variable is the same since its not executed again when dansRoll is called for second time.
-whats different: every time we invoke a new call, it create a new variable n, hence the value of n changes for every new call.
+whats different: every time we invoke a new call, the value of n changes.
 */
 
 // * c. What is the lexical scope of `newRoll`? this might help https://stackoverflo`w.com/questions/1047454
